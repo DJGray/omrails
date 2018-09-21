@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Omrails</title>
+    <title>Long-View Living Ministries</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +10,14 @@
   </head>
 
   <body>
+    <%= link_to "Home", root_path  %>
+    <%= link_to "About", about_path  %>
+    <%= link_to "Extras", extras_path  %>
+    <%= link_to "Blog", blog_path  %>
+    <%= link_to "Contact", contact_path  %>
     <%= yield %>
+    <br />
+    Footer Stuff Here
+    <br />
   </body>
 </html>
